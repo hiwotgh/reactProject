@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
 import "./style.css";
 
 const Navbar = (props) => {
@@ -16,16 +17,16 @@ const Navbar = (props) => {
     <div className="navbar">
       <ul className="navbarMenu">
         <li>
-          <a href="/#">Home</a>
+          <NavLink to="/#">Home</NavLink>
         </li>
         <li>
-          <a href="/#">About Us</a>
+          <NavLink to="/#">About Us</NavLink>
         </li>
         <li>
-          <a href="/#">Posts</a>
+          <NavLink to="/#">Posts</NavLink>
         </li>
         <li>
-          <a href="/#">Contact Us</a>
+          <NavLink to="/#">Contact Us</NavLink>
         </li>
       </ul>
       <div className="search">
