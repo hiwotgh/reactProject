@@ -17,16 +17,16 @@ const Navbar = (props) => {
     <div className="navbar">
       <ul className="navbarMenu">
         <li>
-          <NavLink to="/#">Home</NavLink>
+          <NavLink to="/">Home</NavLink>
         </li>
         <li>
-          <NavLink to="/#">About Us</NavLink>
+          <NavLink to="/about-us">About Us</NavLink>
         </li>
         <li>
-          <NavLink to="/#">Posts</NavLink>
+          <NavLink to="/post">Posts</NavLink>
         </li>
         <li>
-          <NavLink to="/#">Contact Us</NavLink>
+          <NavLink to="/contact-us">Contact Us</NavLink>
         </li>
       </ul>
       <div className="search">
