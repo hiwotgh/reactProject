@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
 import Card from "../UI/Card";
+import memories from "../../blogPostImages/memories-from.jpg";
 
 const BlogPost = (props) => {
   return (
@@ -13,8 +14,12 @@ const BlogPost = (props) => {
         </div>
         <div className="postimageContainer">
           <img
-            src={require("../../blogPostImages/memories-from.jpg")}
-            alt="Post image"
+            src={memories}
+            alt="Post"
+            //src={require("logo192.png")}
+            //src={require("../../blogPostImages/memories-from.jpg")}
+            //style={{ width: 100, height: 100 }}
+            //alt="Post"
           />
         </div>
       </Card>

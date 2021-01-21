@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
+
+//import search from "../../assets/icons/search.png";
 import "./style.css";
 
 const Navbar = (props) => {
@@ -35,6 +37,7 @@ const Navbar = (props) => {
           <img
             onClick={openSearch}
             className="searchIcon"
+            //src={search}
             src={require("../../assets/icons/search.png")}
             alt="Search"
           />
